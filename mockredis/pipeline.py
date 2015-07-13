@@ -64,6 +64,9 @@ class MockRedisPipeline(object):
         finally:
             self._reset()
 
+    def reset(self)
+        self._reset()
+
     def _reset(self):
         """
         Reset instance variables.
